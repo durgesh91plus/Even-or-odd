@@ -1,0 +1,20 @@
+include <stdio.h>
+ void main()
+{
+	int num1;
+	char again;
+	do{
+	printf("even or odd\n") ;
+	printf("enter num1: ");
+	scanf("%d",&num1);
+
+	if (num1%2==0) {
+	printf("even\n");
+} else {
+    printf("odd\n "); 
+}
+printf("\ndo you want to caculate again? (y/n):") ;
+    scanf("%c",&again);
+}while(again=='y'||again=='Y') ;
+printf("close.\n");
+}
